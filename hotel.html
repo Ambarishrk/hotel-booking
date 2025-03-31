@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hotel Booking | Royal hotel</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="hotel.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Royal Hotel</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+           <li class="nav-item"><a class="nav-link" href="#booking">Book Now</a></li>
+           <li class="nav-item"><a class="nav-link" href="#rooms">Rooms</a></li>
+           <li class="nav-item"><a class="nav-link" href="#amenities">Amenities</a></li>
+           <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <img src="royal_hotel_logo.jpeg" alt="Hotel Logo" class="hero-logo">
+      <h1>Welcome to Royal Hotel</h1>
+      <p>Experience the Height of Luxury &amp; Comfort</p>
+      <a href="#booking" class="btn btn-primary">Book Now</a>
+    </div>
+  </section>
+  <section id="booking" class="py-5">
+    <div class="container">
+      <h2 class="section-title">Make a Reservation</h2>
+      <form>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="checkin">Check-In</label>
+            <input type="date" class="form-control" id="checkin">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="checkout">Check-Out</label>
+            <input type="date" class="form-control" id="checkout">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="rooms">Rooms</label>
+            <select id="rooms" class="form-control">
+              <option selected>Choose...</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+            </select>
+          </div>
+          <div class="form-group col-md-6">
+            <label for="guests">Guests</label>
+            <select id="guests" class="form-control">
+              <option selected>Choose...</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+            </select>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Check Availability</button>
+      </form>
+    </div>
+  </section>
+  <section id="rooms" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="section-title">Our Rooms</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="deluxeh.jpeg" class="card-img-top" alt="Deluxe Room">
+            <div class="card-body">
+              <h5 class="card-title">Deluxe Room</h5>
+              <p class="card-text">A luxurious room with a king-sized bed, free Wi-Fi, and a stunning city view.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="suiteh.jpeg" class="card-img-top" alt="Suite Room">
+            <div class="card-body">
+              <h5 class="card-title">Suite Room</h5>
+              <p class="card-text">Spacious suite with a private balcony, living area, and premium amenities.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="familyh.jpeg" class="card-img-top" alt="Family Room">
+            <div class="card-body">
+              <h5 class="card-title">Family Room</h5>
+              <p class="card-text">Perfect for families, featuring two queen-sized beds and a cozy atmosphere.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="amenities" class="py-5">
+    <div class="container">
+      <h2 class="section-title">Amenities</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="swimh.jpeg" class="card-img-top" alt="Swimming Pool">
+            <div class="card-body">
+              <h5 class="card-title">Swimming Pool</h5>
+              <p class="card-text">Relax and unwind in our outdoor pool with a poolside bar.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="spa.jpeg" class="card-img-top" alt="Spa & Wellness">
+            <div class="card-body">
+              <h5 class="card-title">Spa & Wellness</h5>
+              <p class="card-text">Enjoy rejuvenating spa treatments and a fully equipped fitness center.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="dineh.jpeg" class="card-img-top" alt="Fine Dining">
+            <div class="card-body">
+              <h5 class="card-title">Fine Dining</h5>
+              <p class="card-text">Savor gourmet meals at our in-house restaurant with a variety of cuisines.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="section-title">Contact Us</h2>
+      <p>Email: <a href="mailto:info@royalhotel.com">info@hotelname.com</a></p>
+      <p>Phone: <a href="tel:+1234567890">+1 234 567 890</a></p>
+      <p>Address: 123 Luxury Lane, Cityville, Singapore</p>
+    </div>
+  </section>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

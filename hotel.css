@@ -1,0 +1,175 @@
+body, html { 
+    margin: 0; 
+    padding: 0; 
+    height: 100%; 
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+    color: #333;
+  }
+  .navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  .navbar-nav .nav-link {
+    color: #555;
+    font-size: 16px;
+    margin-right: 15px;
+  }
+  .navbar-nav .nav-link:hover {
+    color: #007bff;
+  }
+  .hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }
+  .hero-overlay {
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .hero-content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+  }
+  .hero-logo {
+    width: 150px;
+    margin-bottom: 20px;
+  }
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  .hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .hero .btn {
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+  #booking {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+  }
+  .section-title {
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 32px;
+    color: #333;
+  }
+  form .form-group label {
+    font-weight: bold;
+  }
+  form .form-control {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  form .btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  form .btn:hover {
+    background-color: #0056b3;
+  }
+  #rooms {
+    padding: 60px 0;
+    background-color: #fff;
+  }
+  .card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  .card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .card-text {
+    font-size: 16px;
+    color: #555;
+  }
+  #amenities {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+  }
+  #amenities .card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  #amenities .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  #amenities .card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  #amenities .card-text {
+    font-size: 16px;
+    color: #555;
+  }
+  #contact {
+    padding: 60px 0;
+    background-color: #fff;
+    text-align: center;
+  }
+  #contact p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  #contact a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  #contact a:hover {
+    text-decoration: underline;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+  }
+  @media (max-width: 768px) {
+    .hero h1 {
+      font-size: 36px;
+    }
+    .hero p {
+      font-size: 16px;
+    }
+    .section-title {
+      font-size: 28px;
+    }
+    .card img {
+      height: 150px;
+    }
+  }
